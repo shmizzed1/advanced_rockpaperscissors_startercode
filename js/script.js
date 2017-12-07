@@ -7,6 +7,12 @@
         // Create your document ready function. 
         // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input field, 
         // Display the user choice to the output screen
+        var userChoice = '';
+        var computerChoice = '';
+        var winner = '';
+        var computer = ["rock", "paper","scissors"];
+        
+        
 //Class 3:  
         // Randomly choose among 'rock', 'paper', or 'scissors' from the list of choices 
         // Display the computer choice to the output screen
