@@ -11,7 +11,14 @@
         var computerChoice = '';
         var winner = '';
         var computer = ["rock", "paper","scissors"];
-        
+        $( document ).ready(function() {
+                console.log("here");
+                $( ".Yo" ).click(function() {
+                        
+        var x = Math.floor(Math.random()*3);
+        console.log(x);
+        }); 
+        }); 
         
 //Class 3:  
         // Randomly choose among 'rock', 'paper', or 'scissors' from the list of choices 
